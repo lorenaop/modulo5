@@ -1,0 +1,38 @@
+main {
+    min-height: calc(100vh - 100px);
+    position: relative;
+  }
+ 
+  main section {
+    padding-bottom: 30px;
+    min-height: 30vh;
+  }
+  
+  .header {
+    height: 180px;
+    background-image: url("https://th.bing.com/th/id/OIP.Uu0iF8HrpdPKA5A0mvwV7gHaD5?pid=ImgDet&rs=1");
+    background-size: cover;
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+  }
+   
+  .resposta {
+    padding: 10px;
+    font-size: 20px;
+    background: orangered;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 2px 2px 8px black;
+  }
+  
+  footer {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  footer img {
+    height: 30px;
+  }
